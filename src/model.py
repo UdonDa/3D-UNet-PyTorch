@@ -122,4 +122,4 @@ if __name__ == "__main__":
   model = UNet(in_dim=3, out_dim=3, num_filters=4)
   
   out = model(x)
-  print("out size: {}"out.size())
+  print("out size: {}".format(out.size()))
